@@ -17,3 +17,10 @@
     transform:translateY(0); transition: all 0.3s ease-in-out;
 }
 /* fin animacion navbar */
+
+/* blur navbar */
+.nav{
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+/* fin blur navbar */
