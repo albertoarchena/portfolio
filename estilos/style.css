@@ -28,13 +28,33 @@ body{
     font-size: 15px;
     text-transform: capitalize !important;
 }
+a.nav-link:active{
+    color: var(--primario);
+}
 .navbar li a:hover{
     color: var(--primario) !important;
 }
-.navbar li a:active{
-    color: var(--primario) !important;
+
+
+.navbar .btn{
+    color: var(--primario);
+    background-color: transparent;
+    border: 1px solid var(--primario);
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    font-family: 'Noto Sans Mono', monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.navbar .btn:hover{
+    background-color: #082333;
 }
 
+.navbar .btn a{
+    color: var(--primario) !important;
+}
 
 /* fin navbar personalizacion */
 
@@ -59,20 +79,6 @@ body{
     transform:translateY(0); transition: all 0.3s ease-in-out;
 }
 
-.navbar .btn{
-    font-size: 15px;
-    text-transform: capitalize;
-    border: 1px solid var(--primario);
-    border-radius: 3px;
-    padding: 10px;
-}
-.navbar .btn:hover{
-    
-}
-
-.navbar .btn a{
-    color: var(--primario) !important;
-}
 /* fin animacion navbar */
 
 /* personalizar scrollbar */
